@@ -1,0 +1,23 @@
+// This file is automatically compiled by Webpack, along with any other files
+// present in this directory. You're encouraged to place your actual application logic in
+// a relevant structure within app/javascript and only use these pack files to reference
+// that code so it'll be compiled.
+// jquery3
+// popper
+// bootstrap	
+//= require rails-ujs
+//= require active_storage
+//= require turbolinks
+//= require_tree .
+
+import Rails from "@rails/ujs"
+import Turbolinks from "turbolinks"
+import * as ActiveStorage from "@rails/activestorage"
+
+require('jquery')
+import 'bootstrap'
+import '../src/application.scss'
+
+Rails.start()
+Turbolinks.start()
+ActiveStorage.start()

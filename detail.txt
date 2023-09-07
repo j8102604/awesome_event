@@ -1,0 +1,105 @@
+Sep 03 15:43:18 DESKTOP-E1PCUM7 systemd[1]: Starting Elasticsearch...
+░░ Subject: A start job for unit elasticsearch.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit elasticsearch.service has begun execution.
+░░ 
+░░ The job identifier is 881.
+Sep 03 15:43:31 DESKTOP-E1PCUM7 systemd[1]: Started Elasticsearch.
+░░ Subject: A start job for unit elasticsearch.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit elasticsearch.service has finished successfully.
+░░ 
+░░ The job identifier is 881.
+Sep 03 16:02:37 DESKTOP-E1PCUM7 systemd[1]: Stopping Elasticsearch...
+░░ Subject: A stop job for unit elasticsearch.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit elasticsearch.service has begun execution.
+░░ 
+░░ The job identifier is 1175.
+Sep 03 16:02:38 DESKTOP-E1PCUM7 systemd[1]: elasticsearch.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit elasticsearch.service has successfully entered the 'dead' state.
+Sep 03 16:02:38 DESKTOP-E1PCUM7 systemd[1]: Stopped Elasticsearch.
+░░ Subject: A stop job for unit elasticsearch.service has finished
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A stop job for unit elasticsearch.service has finished.
+░░ 
+░░ The job identifier is 1175 and the job result is done.
+Sep 03 16:02:38 DESKTOP-E1PCUM7 systemd[1]: Starting Elasticsearch...
+░░ Subject: A start job for unit elasticsearch.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit elasticsearch.service has begun execution.
+░░ 
+░░ The job identifier is 1175.
+Sep 03 16:02:47 DESKTOP-E1PCUM7 systemd-entrypoint[6784]: ERROR: [1] bootstrap checks failed. You must address the points described in the following [1] lines before starting Elasticsearch.
+Sep 03 16:02:47 DESKTOP-E1PCUM7 systemd-entrypoint[6784]: bootstrap check failure [1] of [1]: the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+Sep 03 16:02:47 DESKTOP-E1PCUM7 systemd-entrypoint[6784]: ERROR: Elasticsearch did not exit normally - check the logs at /var/log/elasticsearch/awesome_events.log
+Sep 03 16:02:47 DESKTOP-E1PCUM7 systemd[1]: elasticsearch.service: Main process exited, code=exited, status=78/CONFIG
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit elasticsearch.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 78.
+Sep 03 16:02:47 DESKTOP-E1PCUM7 systemd[1]: elasticsearch.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit elasticsearch.service has entered the 'failed' state with result 'exit-code'.
+Sep 03 16:02:47 DESKTOP-E1PCUM7 systemd[1]: Failed to start Elasticsearch.
+░░ Subject: A start job for unit elasticsearch.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit elasticsearch.service has finished with a failure.
+░░ 
+░░ The job identifier is 1175 and the job result is failed.
+Sep 03 16:10:05 DESKTOP-E1PCUM7 systemd[1]: Starting Elasticsearch...
+░░ Subject: A start job for unit elasticsearch.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit elasticsearch.service has begun execution.
+░░ 
+░░ The job identifier is 1234.
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd-entrypoint[7061]: ERROR: [2] bootstrap checks failed. You must address the points described in the following [2] lines before starting Elasticsearch.
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd-entrypoint[7061]: bootstrap check failure [1] of [2]: memory locking requested for elasticsearch process but memory is not locked
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd-entrypoint[7061]: bootstrap check failure [2] of [2]: the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd-entrypoint[7061]: ERROR: Elasticsearch did not exit normally - check the logs at /var/log/elasticsearch/awesome_events.log
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd[1]: elasticsearch.service: Main process exited, code=exited, status=78/CONFIG
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStart= process belonging to unit elasticsearch.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 78.
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd[1]: elasticsearch.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit elasticsearch.service has entered the 'failed' state with result 'exit-code'.
+Sep 03 16:10:14 DESKTOP-E1PCUM7 systemd[1]: Failed to start Elasticsearch.
+░░ Subject: A start job for unit elasticsearch.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit elasticsearch.service has finished with a failure.
+░░ 
+░░ The job identifier is 1234 and the job result is failed.
